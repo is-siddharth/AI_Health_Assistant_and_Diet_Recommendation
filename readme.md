@@ -73,7 +73,7 @@ The application calculates several commonly used nutrition metrics.
 
 **BMI**
 
-```text
+
 BMI = weight (kg) / height² (m²)
 
 BMR
@@ -95,7 +95,7 @@ TDEE = BMR × Activity Factor
 These calculations are estimates and should not be treated as precise measurements of an individual's nutritional requirements.
 
 
-### RAG Pipeline
+## RAG Pipeline
 
 The project uses Retrieval-Augmented Generation (RAG) to provide the AI model with relevant nutrition information.
 
@@ -120,7 +120,7 @@ The nutrition knowledge source is stored in the data/ directory, while the FAISS
 The vector database is intentionally not included in the repository because it can be recreated using the database creation script.
 
 
-Project Structure
+## Project Structure
 ai_health_assistant_project/
 │
 ├── app.py
