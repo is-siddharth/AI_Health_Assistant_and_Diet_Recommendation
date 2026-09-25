@@ -1,0 +1,17 @@
+# Virtual environment
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+apis.txt
+
+# Generated RAG / vector database
+vector_db/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
